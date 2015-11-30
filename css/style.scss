@@ -1,72 +1,72 @@
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
 }
 
-body {
-  background-color: #1b1b1b;
-  height: 100%;
-  margin: 0;
+body{
+	background-color: #1b1b1b;
+	height: 100%;
+	margin: 0;
 }
 
-header {
-  padding-top: 10em;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 10em;
-  background-image: url("http://visualinfection.mx/img/bg.jpg");
-  background-size: cover;
-  background-position: center;
-  color: #fff;
+header{
+	padding-top: 10em;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 10em;
+	background-image: url('http://visualinfection.mx/img/bg.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
 }
 
-h1 {
-  font-family: 'Karla', sans-serif;
-  font-weight: 60px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
+h1{
+	font-family: 'Karla', sans-serif;
+	font-weight: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
 }
 
-h2 {
-  font-family: 'Karla', sans-serif;
-  font-weight: 50px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
+h2{
+	font-family: 'Karla', sans-serif;
+	font-weight: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
 }
 
-h3 {
-  font-family: 'Karla', sans-serif;
-  font-weight: 30px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
+h3{
+	font-family: 'Karla', sans-serif;
+	font-weight: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
 }
 
-p {
-  font-family: 'Karla', sans-serif;
-  font-weight: 16px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
+p{
+	font-family: 'Karla', sans-serif;
+	font-weight: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
 }
 
 a:link {
-  color: #fff;
+    color: #fff;
 }
 
 a:visited {
-  color: #fff;
+    color: #fff;
 }
 
 a:active {
-  color: #ccc;
+    color: #ccc;
 }
 
-work {
-  padding-top: 2em;
+work{
+	padding-top: 2em;
 }
 
 /*import*/
@@ -77,21 +77,18 @@ work {
   font-weight: 500;
   letter-spacing: 1px;
 }
-
 .snip1189 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-
 .snip1189 li {
   display: inline-block;
   list-style: outside none none;
   margin: 4em 3em;
   padding: 0;
 }
-
 .snip1189 a {
   padding: 0.5em 0.8em;
   margin: 0.2em 0;
@@ -100,7 +97,6 @@ work {
   position: relative;
   text-decoration: none;
 }
-
 .snip1189 a:before,
 .snip1189 a:after {
   height: 14px;
@@ -111,7 +107,6 @@ work {
   transition: all 0.35s ease;
   opacity: 0;
 }
-
 .snip1189 a:before {
   left: 0;
   top: 0;
@@ -120,7 +115,6 @@ work {
   -webkit-transform: translate(100%, 50%);
   transform: translate(100%, 50%);
 }
-
 .snip1189 a:after {
   right: 0;
   bottom: 0;
@@ -129,12 +123,10 @@ work {
   -webkit-transform: translate(-100%, -50%);
   transform: translate(-100%, -50%);
 }
-
 .snip1189 a:hover,
 .snip1189 .current a {
   color: #ffffff;
 }
-
 .snip1189 a:hover:before,
 .snip1189 .current a:before,
 .snip1189 a:hover:after,
