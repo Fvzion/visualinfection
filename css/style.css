@@ -1,0 +1,74 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body{
+	background-color: #1b1b1b;
+	height: 100%;
+	margin: 0;
+}
+
+header{
+	padding-top: 10em;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 20em;
+	background-image: url('http://visualinfection.mx/img/bg.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+h1{
+	font-family: 'Karla', sans-serif;
+	font-weight: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+h2{
+	font-family: 'Karla', sans-serif;
+	font-weight: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+h3{
+	font-family: 'Karla', sans-serif;
+	font-weight: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+p{
+	font-family: 'Karla', sans-serif;
+	font-weight: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+/* unvisited link */
+a:link {
+    color: #fff;
+}
+
+/* visited link */
+a:visited {
+    color: #fff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #1b1b1b;
+}
+
+/* selected link */
+a:active {
+    color: #ccc;
+}
