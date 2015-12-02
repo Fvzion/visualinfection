@@ -11,14 +11,17 @@ body {
 }
 
 header {
-  padding-top: 10em;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 10em;
-  background-image: url("http://visualinfection.mx/img/bg.jpg");
-  background-size: cover;
   background-position: center;
   color: #fff;
+}
+
+nav {
+  position: relative;
+  margin-top: 5%;
+  margin-left: 60%;
 }
 
 h1 {
@@ -65,10 +68,6 @@ a:active {
   color: #ccc;
 }
 
-work {
-  padding-top: 2em;
-}
-
 /*import*/
 .snip1189 {
   font-family: 'Karla', Arial, sans-serif;
@@ -88,13 +87,12 @@ work {
 .snip1189 li {
   display: inline-block;
   list-style: outside none none;
-  margin: 4em 3em;
+  margin: 0 0em;
   padding: 0;
 }
 
 .snip1189 a {
   padding: 0.5em 0.8em;
-  margin: 0.2em 0;
   display: block;
   color: rgba(255, 255, 255, 0.5);
   position: relative;
@@ -142,4 +140,45 @@ work {
   -webkit-transform: translate(0%, 0%);
   transform: translate(0%, 0%);
   opacity: 1;
+}
+
+/*galerias*/
+#slideshow1 img {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+/*css-bookmarks*/
+#bookmarks {
+  background-color: #fff;
+  padding-bottom: 2em;
+}
+
+#bookmarks h2 {
+  color: #e5176d;
+  padding-top: 1em;
+  margin-left: 1em;
+  text-align: center;
+}
+
+.bookmarks {
+  font-family: 'Karla', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.bookmarks li {
+  list-style: outside none none;
+}
+
+.bookmarks a:link {
+  color: #1b1b1b;
+}
+
+.bookmarks a:visited {
+  color: #1b1b1b;
 }
