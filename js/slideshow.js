@@ -1,4 +1,4 @@
-var duration = 20; // duration in seconds
+var duration = 50; // duration in seconds
 var fadeAmount = 0.3; // fade duration amount relative to the time the image is visible
 
 $(document).ready(function (){

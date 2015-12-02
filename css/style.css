@@ -145,6 +145,7 @@ a:active {
 /*galerias*/
 #slideshow1 img {
   position: absolute;
+  text-align: center;
   display: block;
   overflow: hidden;
   width: 100%;
